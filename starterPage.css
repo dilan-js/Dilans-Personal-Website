@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
 :root {
-    --eyeSize: 90px;
-    --eye-margin: 30px;
+    --eyeSize: 50px;
+    --eye-margin: 25px;
     --eyeColor: #95f68c;
     --borderColor: #000000;
     --backgroundColor: #f5eee5;
@@ -19,8 +19,8 @@ body {
 }
 
 .entryBox {
-    width: 50%;
-    height: 31.3%;
+    width: 50vw;
+    height: 30vh;
     background-color: #f5eee5;
     box-shadow: inset 9px 9px 15px #e9cfad, inset -9px -9px 15px #f0eae3;
     border-radius: 15px;
@@ -92,41 +92,45 @@ body {
 }
 
 .typewriter {
-    font-size: 100px;
-    width: 1600px;
-    height: 400px;
+    font-size: 2.2vw;
+    width: 30vw;
+    height: 20vh;
     display: inline-block;
     font-family: 'Josefin Sans', sans-serif;
     /* text-shadow: #887458 5px 5px 5px; */
-    color: #AE1100;
-    text-shadow: 1px 1px 0 #FFF;
-    border-radius: 50px;
+    color: #e9c99e;
+    text-shadow: 1px 1px 0 rgb(235, 169, 83);
+    border-radius: 15px;
     background: #f5ebdd;
     box-shadow: inset 9px 9px 15px #e9cfad, inset -3px -3px 10px #f0eae3;
-    margin-top: 275px;
+    margin-top: 5.5vh;
     padding-top: 45px;
 }
 
 button {
-    size: 100px;
-    box-shadow: -5px -5px 20px #e9cfad, 5px 5px 20px #f0eae3;
+    box-shadow: -5px -5px 20px #e9cfad, 5px 5px 20px #f1dfc9;
     transition: all 0.2s ease-in-out;
     cursor: pointer;
     border-radius: 320px;
-    padding-top: 60px;
-    padding-bottom: 60px;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-top: .5vw;
+    padding-bottom: .5vw;
+    background: #f5ebdd;
+    color: #AE1100;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
     margin-top: 45px;
     outline: none;
-    font-size: 50px;
+    border: none;
+    font-size: 1.4vw;
     font-family: 'Josefin Sans', sans-serif;
 }
 
 button:hover {
-    box-shadow: -2px -2px 5px #FFF, 2px 2px 5px rgb(202, 204, 186);
+    box-shadow: -2px -2px 5px rgb(238, 217, 189), 2px 2px 5px rgb(202, 204, 186);
+    outline: none;
 }
 
 button:active {
-    box-shadow: inset 9px 9px 2px rgb(202, 204, 186), inset 4px 4px 2px #FFF;
+    box-shadow: inset 9px 9px 2px rgb(246, 227, 204), inset 4px 4px 2px rgb(248, 236, 221);
+    outline: none;
 }
